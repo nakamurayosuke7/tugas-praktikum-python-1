@@ -55,7 +55,7 @@ def soal6():
     tunjangan_keluarga = 10 / 100 * gaji_pokok / jumlah_anak
     print("TUNJANGAN KELUARGA         :    Rp", tunjangan_keluarga)
     gaji_kotor = gaji_pokok + tunjangan_keluarga + tunjangan_kesejahteraan
-    pajak = 0.1 * gaji_kotor
+    pajak = 0.1/100 * gaji_kotor
     print("PAJAK                      :    Rp", pajak)
     print("GAJI KOTOR                 :    Rp", gaji_kotor)
     print("GAJI BERSIH                :    Rp", gaji_pokok - pajak )
